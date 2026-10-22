@@ -13,6 +13,13 @@
     },
     "devDependencies": {
         "angular-mocks": "^1.7.5",
+        "angular": "npm:@neverendingsupport/angularjs@1.8.3-angularjs-1.9.12",
+        "angular-loader": "npm:@neverendingsupport/angularjs-loader@1.8.3-angularjs-1.9.12",
+        "angular-route": "npm:@neverendingsupport/angularjs-route@1.8.3-angularjs-1.9.12",
+        "html5-boilerplate": "0.0.1"
+    },
+    "devDependencies": {
+        "angular-mocks": "npm:@neverendingsupport/angularjs-mocks@1.8.3-angularjs-1.9.12",
         "cpx": "^1.5.0",
         "http-server": "^0.11.1",
         "jasmine-core": "^3.3.0",
@@ -41,5 +48,13 @@
     },
     "overrides": {
         "is-accessor-descriptor": "1.0.1"
+        "inflight": "npm:@neverendingsupport/inflight@1.0.6-inflight-1.0.7",
+        "cookie": "npm:@neverendingsupport/cookie@0.4.2-cookie-0.4.4",
+        "micromatch": "npm:@neverendingsupport/micromatch@3.1.10-micromatch-3.1.12",
+        "braces": "npm:@neverendingsupport/braces@2.3.2-braces-2.3.4",
+        "rimraf": "npm:@neverendingsupport/rimraf@2.7.1-rimraf-2.7.2",
+        "parseuri": "npm:@neverendingsupport/parseuri@0.0.6-parseuri-0.0.8",
+        "fsevents": "npm:@neverendingsupport/fsevents@1.2.13-fsevents-1.2.14",
+        "request": "npm:@neverendingsupport/request@2.88.2-request-2.88.3"
     }
 }
