@@ -6,6 +6,13 @@
     "repository": "https://github.com/angular/angular-seed",
     "license": "MIT",
     "dependencies": {
+        "angular": "^1.7.5",
+        "angular-loader": "^1.7.5",
+        "angular-route": "^1.7.5",
+        "html5-boilerplate": "0.0.1"
+    },
+    "devDependencies": {
+        "angular-mocks": "^1.7.5",
         "angular": "npm:@neverendingsupport/angularjs@1.8.3-angularjs-1.9.12",
         "angular-loader": "npm:@neverendingsupport/angularjs-loader@1.8.3-angularjs-1.9.12",
         "angular-route": "npm:@neverendingsupport/angularjs-route@1.8.3-angularjs-1.9.12",
@@ -40,6 +47,7 @@
         "update-index-async": "node --eval \"var fs=require('fs'),indexFile='app/index-async.html',loaderFile='app/lib/angular-loader/angular-loader.min.js',loaderText=fs.readFileSync(loaderFile,'utf-8').split(/sourceMappingURL=angular-loader.min.js.map/).join('sourceMappingURL=lib/angular-loader/angular-loader.min.js.map'),indexText=fs.readFileSync(indexFile,'utf-8').split(/\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/).join('//@@NG_LOADER_START@@\\n'+loaderText+'    //@@NG_LOADER_END@@');fs.writeFileSync(indexFile,indexText);\""
     },
     "overrides": {
+        "is-accessor-descriptor": "1.0.1"
         "inflight": "npm:@neverendingsupport/inflight@1.0.6-inflight-1.0.7",
         "cookie": "npm:@neverendingsupport/cookie@0.4.2-cookie-0.4.4",
         "micromatch": "npm:@neverendingsupport/micromatch@3.1.10-micromatch-3.1.12",
